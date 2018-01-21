@@ -1,0 +1,29 @@
+{
+  "name": "HolidayApps",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": "Jordan",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "expo": "^19.0.0",
+    "native-base": "^2.3.3",
+    "react": "16.0.0-alpha.12",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-19.0.0.tar.gz",
+    "react-native-elements": "^0.18.2",
+    "react-native-icon-badge": "^1.1.3",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-star-rating": "^1.0.8",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-equimper": "^2.2.1",
+    "eslint-config-prettier": "^2.3.0",
+    "prettier": "^1.5.3"
+  }
+}

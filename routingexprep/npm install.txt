@@ -1,0 +1,7 @@
+
+
+Til React Router
+npm install --save react-router react-router-dom
+
+Til ReactStrap --> React Bootstrap: https://reactstrap.github.io/
+npm install --save reactstrap@next react react-dom

@@ -1,0 +1,8 @@
+{
+
+    "orderlines" : [
+        {"product": "beer", "quantity": 24, "costPrUnit": 8},
+        {"product": "milk", "quantity": 2, "costPrUnit": 5}
+    ]
+
+}

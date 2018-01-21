@@ -1,0 +1,10 @@
+cors\CorsRequestFilter.class
+cors\CorsResponseFilter.class
+facade\IGitRepo.class
+jpacontrol\Populate.class
+rest\RestGit.class
+facade\FacadeFactoryGitRepo.class
+rest\ApplicationConfig.class
+facade\FacadeGitRepo.class
+entity\GitRepo.class
+entity\GitRepo_.class

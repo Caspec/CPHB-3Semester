@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CA-2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Dokumentation</h1>
+        
+        <h2>Documentation for your tests against another groups client and server including a description on what went well and what did not</h2>
+        <p>Dem der er færdige er gået hjem og vores client/server gui virker ikke...</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <h2>A description on how you designed the system?</h2>
+        <p>Vi startede med at op rette en tcpServer. Derefter lavede vi en tcpClient og tilføjede de nødvendige sockets så clienten og serveren kunne snakke sammen.</p>
+        <p>Så lavede vi en tcpServerHandler som skulle håndtere adding og removing clienter og samtidig havde metoderne echoAll og EchoOne der gjorde det muligt at en besked blev udskrevet til alle eller kun nogle clienter på serveren.</p>
+        <p>Så havde vi problemer med at få det til at fungere i consolen og fandt ud af vi måtte lave en tcpReader som egentlig har ansvaret for at starte og slutte de forskellige threads. Vi har ergo implementeret Obseverpattern.</p>
+
+        <h2>A description on how to use the system</h2>
+        <p>Vi har ikke deployet på digital ocean for vi har ikke kunne for hjælp til den sidste del.</p>
+        <p>Meen: Først kører man runfile TcpServerTest.java også åbner man Login.java (GUI) og skriver navn, ip og port og trykker login. Derefter så lukker login Gui'et og åbner vores chat client Gui. Derfra er det meningen at man kan chatte men vi har ikke fået Send/recive til at virke ordenligt da vi ikke har fået den nødvendige hjælp... Der er ikke lærer.. der er ikke tudorer...  </p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+
+        <h2>A section stating who worked on what in your group</h2>
+        <p>Vi har alle bidraget til at få løst problemerne. Vi har alle bidrag til at få det løst og siddet nogen gange 2 mennesker på samme computer.</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <h2>Links / info</h2>
+        <a href="index.html">index</a><br>
+        <a href="https://github.com/Caspec/BearsChat-Chat">Git repo - Source code for chat</a><br>
+        <a href="https://github.com/Caspec/BearsChat">Git repo - Source code for dokumentation</a><br>
+        <a href="CA2-Chat.jar"> Downloadable server jar file</a><br> <----- Virker IKKE
+        <p>Run this by the following command in terminal / CMD: ' Java -cp CA2-Chat.jar tcpServer.TcpServerTest ' port is: 8081</p> TDB
+
+    </body>
+</html>
