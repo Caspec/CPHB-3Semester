@@ -21,7 +21,7 @@ derby.log
 
 
 nb-configuration.xml
-
+#
 # secret
 #**/config.properties
 
